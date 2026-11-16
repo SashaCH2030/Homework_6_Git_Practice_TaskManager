@@ -247,6 +247,8 @@ namespace TaskTracker.UI
             Console.WriteLine();
             Console.WriteLine("--- Статистика ---");
             Console.WriteLine(taskService.GetStatistics());
+        }
+
         private void SetTaskPriority()
         {
             Console.WriteLine();
